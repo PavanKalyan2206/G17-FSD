@@ -1,0 +1,77 @@
+<!--form creation-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            form creation
+        </title>
+
+    </head>
+    <body>
+        <form action="#" method="post">
+            <label for="text">Name</label>
+             <input type="text" name="text" maxlength="10" size="10" id="name"></br></br>
+            <label for name="password">Password</label>
+            <input type="password" name="password"></br></br>
+            <input type="radio" name="agree">yes
+            <input type="radio" name="agree" >no</br></br>
+            <!-- name should be same then only we can select one radio button or else two will be selected -->
+            <input type="submit" value="go">
+
+            <!--check box-->
+            <select name="languages">
+                <option value="c">c</option>
+                <option value="java" selected>java</option>
+                <option value="python">python</option>
+                <option value="c++">c++</option>
+
+            </select>
+
+            <!--checkbox-->
+            <input type="checkbox" name="pets" value="dog" >Dog
+            <input type="checkbox" name="pets" value="cat" checked>cat
+
+            <!--fieldset and legend-->
+<br/><br/>
+            <fieldset>
+                <legend> FORM</legend>
+                <label for="text">Name</label>
+                <input type="text" name="text" maxlength="10" size="10" id="name"></br></br>
+               <label for name="password">Password</label>
+               <input type="password" name="password"></br></br>
+               <input type="radio" name="agree">yes
+               <input type="radio" name="agree" >no</br></br>
+               <!-- name should be same then only we can select one radio button or else two will be selected -->
+               <input type="submit" value="go">
+            </legend>
+            </fieldset>
+            <br/><br/>
+            
+            <fieldset>
+                <legend> types</legend>
+                   <!--email date  url and search-->
+                    <label for="date">choose date</label>
+                    <input type ="date"></br></br>
+                    <label for="url">place url</label>
+                    <input type ="url"></br></br>
+                    <label for="email">Enter mail</label>
+                    <input type ="email"></br></br>
+                    <label for="search">Search ur element</label>
+                    <input type ="search">
+                 
+            </fieldset>
+
+
+            <fieldset>
+                <legend>names</legend>
+                <label for="username" >username</label>
+                <input type="username" placeholder="enter username"></br></br>
+
+            </fieldset>
+            
+
+
+
+        </form>
+    </body>
+</html>
